@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <1>Registration Form</1>
+    <form action="https://formspree.io/f/xpwzpzrd" method="post">
+        <label for="first_name">First Name</label>
+<input type="text" id="first_name" name="first_name" />
+<br/>
+
+<label for="last_name">Last Name</label>
+<input type="text" id="last_name" name="last_name" />
+<br/>
+
+<p>Gender</p>
+<input type="radio" name="gender" value="male" /> Male
+<input type="radio" name="gender" value="female" /> Female
+<input type="radio" name="gender" value="other" /> Other
+<br/>
+
+<label for="date_of_birth">Date of Birth</label>
+<input type="date" id="date_of_birth" name="date_of_birth" />
+<br/>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" />
+<br />
+<button type="submit">Submit</button>
+
+</form>
+<h1>Search Form</h1>
+
+<form action="https://httpbin.org/get" method="GET">
+  <label for="search_name">Search</label>
+  <input type="search" id="search_name" name="search_name" />
+  <br />
+  <button type="submit">Search</button>
+</form>
+</body>
+</html>
